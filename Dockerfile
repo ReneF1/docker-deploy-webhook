@@ -1,4 +1,4 @@
-FROM node:8-alpine
+FROM node:alpine
 RUN apk update && apk add docker
 RUN mkdir -p /usr/src/app
 COPY index.js /usr/src/app
