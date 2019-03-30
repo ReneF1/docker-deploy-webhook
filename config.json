@@ -1,7 +1,12 @@
 {
-  "production": {
-    "greent2000/stocheck:tagname": {
+  "frontend": {
+    "greent2000/stocheck:latest": {
       "service": "frontend"
+    },
+  },
+    "popEngine": {
+    "greent2000/stocheck-popengine:latest": {
+      "service": "popengine"
     },
   },
 }
